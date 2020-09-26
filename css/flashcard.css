@@ -1,0 +1,106 @@
+body {
+    background-color: whitesmoke;
+}
+
+.row {
+    width: 100%;
+}
+
+.second {
+    margin: 0;
+    margin-bottom: 15px;
+    border: 1px solid #FF7C46;
+    border-radius: 5px;
+}
+
+#column {
+    border: 1px solid tomato;
+}
+
+.second h5 {
+    margin: 10px 0 10px 0;
+}
+
+.second textarea {
+    margin: 0 0 10px 0;
+    height: 90px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+
+#addQuestion {
+    color: #FF7C46;
+    border: 1px solid #FF7C46;
+}
+
+#addQuestion:hover {
+    background-color: #FF7C46;
+    color: black;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+}
+
+#save {
+    width: 60%;
+    margin-top: 10px;
+    color: #297373;
+    background-color: #F5F5F5;
+    border: 2px solid #297373;
+}
+
+#save:hover {
+    background-color: #297373;
+    color: white;
+}
+
+#icon1 {
+    padding-left: 16px;
+}
+
+a {
+    color: black;
+}
+
+#icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#icon:hover {
+    background-color: tomato;
+}
+
+.thirdRow {
+    background-color: #eeee;
+    margin-left: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    width: 50%;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.fourthRow {
+    padding-left: 12px;
+    margin-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    width: 50%;
+    align-items: center;
+    height: 60px;
+    background-color: #eeee;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.link {
+    margin: 10px 0 10px 0;
+}
